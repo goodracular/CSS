@@ -3,3 +3,5 @@
 Welcome to the css repo where all of my daily CSS practice are visible.
 <br>
 This repo contains css and html files
+<br>
+Author - Gargi Kulkarni
