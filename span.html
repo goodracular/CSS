@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>span and CSS practice</title>
+        <!-- inside <head> because the browser should load styles BEFORE showing the page */ -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+    <!-- SPAN -->
+     <p class="span-text"> Hello class today we are going to learn <span>CSS </span> and <span>Span</span>.</p>
+
+    <!--this is to demonstrate how block elements behave - div (division) element is a generic container used in HTML to group related content together for styling or scripting purposes. -->
+    <div class="block">Block 1</div>
+    <div class="block">Block 2</div>
+    
+    
+    <!-- PADDING vs MARGIN -->
+     <div class="container">
+        Padding inside, Margin outside
+    </div>
+
+    <!-- vh: Viewport Height — Represents 1% of the height of the viewport (the visible area of the browser window).
+         vw: Viewport Width — Represents 1% of the width of the viewport. -->
+    <div class="vhvw-box">
+        Resize Screen
+    </div>
+
+    <!-- EM vs REM -->
+     <div class="parent"> 
+        parent (200px) 
+     <div class="child"> child (2 em) </div>
+     </div>
+
+     <div class="rem-box">
+        rem box (2rem)
+     </div>
+
+    <!-- CARD -->
+     <div class="card">
+        <h2 class="card-title">Card Title</h2>
+        <p class="card-text">This is a simple card.</p>
+        <button class="card-button"> Click Me </button>
+     </div>
+
+    </body>
+</html>

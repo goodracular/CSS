@@ -1,0 +1,119 @@
+/* Root */
+html{
+    font-size: 16px;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial;
+}
+
+/* Span .span-text
+This means: select element with class "span-text"
+span
+This means: select all <span> inside that element */
+.span-text span{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* BLOCK */
+.block{
+    background: lightblue;
+    margin: 10px 0 ; 
+    /* is shorthand for:
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0; 
+    With margin: 10px 0;:
+
+Block 1
+
+Block 2
+
+Adds vertical spacing between blocks */
+}
+
+/* PADDING vs MARGIN */
+.container{
+    background: lightpink ;
+    padding: 2rem;
+    margin: 2rem;
+    border: 3px solid black;
+}
+
+/* VH VW */
+.vhvw-box{
+    width: 50vw;
+    height: 50vh;
+    background: palevioletred;
+    margin: 20px 0;
+}
+
+/* EM vs REM */
+.parent{
+  font-size: 20px;
+  background: lightgreen;
+  padding: 1rem;
+}
+
+.child {
+    font-size: 2em;
+    background: orange;
+  }
+
+  .rem-box {
+    font-size: 2rem;
+    background: lightcoral;
+    margin-top: 10px;
+  }
+
+/* card */
+.card{
+    background: wheat;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    /* html {
+font-size: 16px;
+}
+.card-title {
+  font-size: 2rem;
+}
+    Means:
+    2 × root size (html)
+    So: 2rem = 2 × 16px = 32px */
+}
+
+
+.card-button{
+    font-size: 1rem;
+    padding: 0.5rem 1em;
+    background: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+/* WHAT IS em?
+.parent {
+  font-size: 20px;
+}
+
+.child {
+  font-size: 2em;
+}
+
+Means:
+
+2 × parent size
+
+So:
+
+2em = 2 × 20px = 40px */
